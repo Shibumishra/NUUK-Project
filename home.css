@@ -8,6 +8,7 @@ body {
   color: #121213;
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 0;
 }
 .banner {
   position: relative;
@@ -473,7 +474,7 @@ nav ul li:hover > ul {
   font-family: "Dosis", sans-serif;
 }
 .main-section{
-  height: 1000vh;
+  height: 470vh;
   Background-color: #f7f8fc;
 }
 .main-contener-3{
@@ -510,47 +511,6 @@ nav ul li:hover > ul {
  margin: 100px;
  margin-bottom: 0;
 }
-/* .project-img-section{
-  margin-top: 100px;
-}
-.projects-img{
-  position: relative;
-  display: flex;
-  width: 30.03%;
-  float: left; 
-}
-#img_position{
-  margin-left:4%;
-}
-.img-position{
-  max-width: 100%;
-  vertical-align: middle;
-  margin: 10px;  
-}
-.project-circle{
-  background-image: linear-gradient(59deg , #ff6361, #e47312);
-  display: flex;
-  width: 90px;
-  height: 90px;
-  padding-right: 11px;
-  padding-left: 11px;
-  border-radius: 100%;
-  box-sizing: border-box;
-  text-decoration: none;
-  justify-content: center;
-}
-.view-project{
-  color: #fff;
-  text-align: center;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 500;
-  text-align: center;
-  letter-spacing: 1px;
-}
-.view-project:hover{
-  color: #0a1229;
-} */
 .project-img-section{
   width: 1280px;
   margin: 80px auto 0;
@@ -676,22 +636,6 @@ nav ul li:hover > ul {
   margin: 80px;
   margin-bottom: 0;
 }
-/* .img-prof{
-  max-width: 90%;
-}
-.img-wal{
-  display: flex;
-  flex-direction: row;
-  margin-top: 150px;
-  padding-left: 40px;
-}
-.team-conten{
-  display: inline-block;
-  padding: 29px 96px 29px 29px;
-  background-color: #fff;
-  box-sizing: border-box;
-}
- */
  .wrapper-row{
    margin-top: 150px;
  }
@@ -744,8 +688,6 @@ nav ul li:hover > ul {
 }
 .social-icon {
   display: flex;
-  /* width: 40px;
-  height: 50px; */
   padding: 15px;
   float: left;
   
@@ -760,8 +702,347 @@ nav ul li:hover > ul {
   text-transform: uppercase;
 }
 .team-content p{
-   font-family: "Dosis", sans-serif;
+    font-family: "Dosis", sans-serif;
     color: #919197;
     font-size: 17px;
     line-height: 25px
+}
+.contener-client{
+  margin-top: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  position: relative;
+}
+.client-title{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  bottom: 0;
+  z-index: 1;
+  color: rgba(241, 241, 247, 0.4);
+  font-size: 120px;
+  letter-spacing: 11px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+.client-heading{
+  position: relative;
+  z-index: 1;
+  top: 50px;
+  left: 50px;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.client-para-about p{
+  display: block;
+  margin-top: 100px;
+  padding-left: 40px;
+  font-family: Dosis, sans-serif;
+  color: #919197;
+  font-size: 17px;
+  line-height: 25px;
+}
+.Testimonial-title{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  Line-height: 20px;
+  font-weight: 500
+}
+.Testimonial-paragraph{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #919197;
+  font-family: "Dosis", sans-serif;
+}
+.testimonials-wrapper{
+  position: relative;
+  display: block;
+  margin: 50px auto 61px;
+  padding: 80px 30px 26px;
+  background-color: #fff;
+  text-align: center;
+}
+.testimonials-job-title{ 
+ font-family: "Dosis", sans-serif;
+ color: #919197;
+ font-size: 17px;
+ line-height: 25px;
+}
+.first-testi-conter{
+  width: 40%;
+  position: relative;
+  float: left;
+  margin: 20px;
+}
+.testimonials-photo {
+  position: relative;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  margin: -115px auto 25px;
+  align-items: stretch;
+  border-radius: 100%;
+  background-image: linear-gradient(8deg, #ff6361, #e47312);
+  opacity: 1;
+  color: #fff;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.text-block-2 {
+ padding-top: 13px;
+ padding-left: 17px;
+}
+.testimonials-colm{
+  padding-left: 0;
+  padding-right: 0;
+  width: 60%;
+}
+.top-colm{
+  padding-top: 70px;
+}
+/* .contener-blog-new{
+
+} */
+.blog{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  position: relative;
+}
+.prof-title{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  bottom: 0;
+  z-index: 1;
+  color: rgba(241, 241, 247, 0.4);
+  font-size: 120px;
+  letter-spacing: 11px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+.prof-heading{
+  position: relative;
+  z-index: 1;
+  top: 50px;
+  left: 50px;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.prof-link{
+  margin: 80px;
+  margin-bottom: 0;
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.blog-image{
+  position: relative;
+  background-color: #5c5c5c;
+}
+.img-contener{
+  position: relative;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 40px;  
+}
+.blog-content{
+  max-width: 100%;
+  padding: 25px 56px 25px 30px;
+  background-color: #e47312;
+  background-image: linear-gradient(158deg, #e47312, #ff6361);
+}
+.blog-content-title{
+  margin-right: 0px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 26px;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.blog-content-para{
+    margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "Dosis", sans-serif;
+}
+.text-dectroation-none{
+  text-decoration: none;
+}
+.img-colm{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.meta-tag{
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+}
+.meta-number{
+  display: flex;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  background-image: linear-gradient(45deg, #ff6361, #e47312);
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+  justify-content: center;
+}
+.meta-month {
+  display: flex;
+  width: 70px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #9d9da5;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.blog-link{
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.section-logo{
+  Background-image: linear-gradient(56deg, #e47312, #ff6361);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding: 5% 5%;
+}
+.logo-fixed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-title{
+  flex: 0 0 auto;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+.tap-logo{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.last-section{
+  width: 90%;
+  height: 75vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 70px;
+  padding: 50px;
+  padding-left: 50px;
+  border-radius: 1px solid #2f3038;
+  background-color: #0a1229;
+}
+.fotter-line-1{
+  position: relative;
+  z-index: 0;
+  margin-top: 0px;
+  padding: 0px;
+}
+.fotter-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+.fotter-title{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  flex: 0 0 auto;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.fotter-para{
+  font-size: 17px;
+  line-height: 25px;
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+}
+.fotter-para-contact{
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 17px;
+  line-height: 15px;
+  font-family: "Dosis", sans-serif;
+}
+.fotter-link{
+  padding-top: 15px;
+}
+.title-line{
+  position: absolute;
+  left: 35%;
+  top: 25px;
+  margin-top: 0px;
+  right: auto;
+  bottom: auto;
+  width: 50%;
+  height: 1px;
+  background-color: #ff6361;
+}
+.in-footer {
+  margin-bottom: 30px;
+  padding-right: 14px;
+  background-color: #0a1229;
+}
+.title-line1{
+  margin-left: 30px;
+  width: 70%;
+}
+.title-line2{
+  margin-left: 40px;
+  width: 120%;
+}
+.logo-end{
+  margin-top: 55px;
+}
+.logo-img-eng{
+  padding: 45px;
+  padding-right: 35px;
+  padding-left: 35px;
+  background-color: #e47312;
 }
