@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/fa8515a440.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./home.css">
     <title>Nuuk WebApp</title>
+    <script src="./home.js"></script>
 </head>
 
 <body>
@@ -17,10 +18,13 @@
         <div class="overdlow">
             <div class="banner">
                 <nav>
-                    <div class="navbar ">
+                    <div class="navbar">
                         <a href=""><img class="logo" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png"
                                 width="90" height="20px" alt=""></a>
+                                
                         <ul class="topbar">
+                            <span class="bar-icon-1" onclick="myFunction()">&#9776</span>
+                        <div id="mylinks" class="mobil-screen">
                             <li> <a href="">HOME</a></li>
                             <li><a href="">PROJECTS</a></li>
                             <li><a href="">ABOUT</a></li>
@@ -34,28 +38,38 @@
                                     <li><a href="">LICENSING</a></li>
                                 </ul>
                             </li>
+                        </div>
                             <button class="topbtn">GET FREE QUOTE</button>
                         </ul>
                     </div>
                 </nav>
-                <div class="contact">
-                    <div class="wrapper-info">
-                        <i class="fas fa-phone-alt contact-socal">
-                            <h5 class="conact-info">PHONE NUMBER</h5>
-                            <p class="para-info">1-800-506-266</p>
-                            <p class="para-info">1-100-777-800</p>
-                        </i>
-                        <i class="fas fa-envelope contact-socal">
-                            <h5 class="conact-info">CONTACT</h5>
-                            <p class="para-info">contact@nuuk.com</p>
-                            <p class="para-info">info@nuuk.com</p>
-                        </i>
-                        <i class="far fa-clock contact-socal">
-                            <h5 class="conact-info">OPENING TIMES</h5>
-                            <p class="para-info">Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
-                            <a href="#" class="map-link">FIND ON MAP</a>
-                        </i>
-                    </div>
+                <div>
+                    <div class="features-wrapper">
+                        <div class="infos-flex">
+                          <div class="info-child">
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg" width="20px" alt="" class="info-image">
+                            <h1 class="conact-info">Phone Number<br></h1>
+                            <p class="para-info">1-800-506-266<br></p>
+                            <p class="para-info">1-100-777-800<br></p>
+                          </div>
+                          <div class="info-child">
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg" width="20px" alt="" class="info-image">
+                            <h1 class="conact-info">Contact<br></h1>
+                            <p class="para-info">contact@nuuk.com<br></p>
+                            <p class="para-info">info@nuuk.com<br></p>
+                          </div>
+                          <div class="info-child">
+                            <img class="info-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg" width="20px" alt="" class="info-image">
+                            <h1 class="conact-info">Opening Times<br></h1>
+                            <p class="para-info">
+                              Mon - Sat 8:00 - 17:30, Sunday - Closed<br>
+                            </p>
+                            <a href="#" class="navlink for-button blue white w-inline-block">
+                                <a href="#" class="map-link">FIND ON MAP</a>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                 </div>
                 <div class="main-title">
                     <h1 id="top-title">YOU DREAM. WE CREATE.</h1>
@@ -63,10 +77,10 @@
                     <button id="title-btn">GET FREE QUOTE</button>
                 </div>
                 <div class="socal-media">
-                    <a href=""><i class="fab fa-facebook-f socal-icon bottom-line"></i></a>
-                    <a href=""><i class="fab fa-twitter socal-icon bottom-line"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in socal-icon bottom-line"></i></a>
-                    <a href=""><i class="fab fa-instagram socal-icon "></i></a>
+                    <a href=""><img class="social-icon underline-icon" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="16px" alt=""></i></a>
+                    <a href=""><img class="social-icon underline-icon" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="16px" alt=""></i></a>
+                    <a href=""><img class="social-icon underline-icon" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="16px" alt=""></i></a>
+                    <a href=""><img class="social-icon" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/instagram-logo.png" width="16px" alt=""></a>
                 </div>
             </div>
             <section>
@@ -77,6 +91,12 @@
                         <a class="servic-link" href="#">VIEW ALL SERVICES</a>
                     </div>
                 </div>
+
+                <div class="mobile-section">
+                 <h1>OUR SPECIALIZATION</h1>
+                 <a class="servic-link" href="#">VIEW ALL SERVICES</a>
+                </div>
+
                 <div class="main-contener">
                     <div class="service-contener">
                         <img class="img-item" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg" alt="">
@@ -118,8 +138,8 @@
                         <img class="fun-facts-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg" alt="">
                     <div>
                         <h1 class="about">ABOUT</h1>
-                        <h1 class="who-we-are">WHO WE ARE</h1>
-                        <pre class="about-para">Based on collective work and shared knowledge, Nuuk aims to favor 
+                        <h1 class="who-we-are small-screen-about">WHO WE ARE</h1>
+                        <pre class="about-para ">Based on collective work and shared knowledge, Nuuk aims to favor 
 dialogue and debate, to transform individual knowledge into increased 
 creative potential.
 
@@ -129,7 +149,7 @@ of 25 different nationalities. The company principle of Architecture-Studio
 is the collective conception. From the very beginning, the practice has 
 believed in the virtues of exchange, crossing ideas, common effort, shred 
 knowledge.</pre>
-                             <a class="about-link" href="#">MEET THE TEAM</a>
+                             <a class="about-link small-screen-about-link" href="#">MEET THE TEAM</a>
                     </div>
                 </div>
                 <div class="experience">
@@ -468,11 +488,11 @@ knowledge.</pre>
                     <div class="fotter-line-1">
                     <h1 class="fotter-title">CONTACT US</h1>
                     <div class="title-line title-line1"></div>
-                    <h1 class="fotter-title"> PHONE NUMBER</h1>
+                    <h1 class="fotter-title"> <i class="fas fa-phone-alt"></i> PHONE NUMBER</h1>
                     <p class="fotter-para-contact">1-800-506-266</p>
-                    <h1 class="fotter-title">OPENING TIMES</h1>
+                    <h1 class="fotter-title"> <i class="far fa-clock "></i> OPENING TIMES</h1>
                     <p class="fotter-para-contact">Mon - Sat 8:00 - 17:30, Sunday - <br> Closed</p>
-                    <h1 class="fotter-title">CONTACT</h1>
+                    <h1 class="fotter-title">  <i class="fas fa-envelope"></i> CONTACT</h1>
                     <p class="fotter-para-contact">contact@nuuk.com</p>
                 </div>
                 </div>
