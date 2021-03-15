@@ -1236,39 +1236,3 @@ display: none;
   flex-wrap: wrap;
   width: 50%;
 }
-
-
-
-/* @media only screen and (max-width: 9910px) {
-  body {
-    background-color: lightblue;
-  }
-} */
-
-/* nav div a{
-  display: block;
-  
-}
-nav{
-  display: block;
-}
-.img-logo{
-  float:right;
-}
-nav div a:hover::before{
-  width: 24%;
-}
-nav div a::before{
-  background-color: rgb(63, 79, 153);
-  transition: all 0.3s linear;
-  display: block;
-}
-nav div a:hover::before{
-  display: block;
-  background-color: rgb(134, 146, 182);
-  width: 9%;
-}
-nav button{
-  padding: 8px 10px;
-  font-size: 12px;
-} */
