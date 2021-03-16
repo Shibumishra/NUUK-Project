@@ -965,9 +965,7 @@ img{
 .section-logo{
   margin-top: 80px;
   Background-image: linear-gradient(56deg, #e47312, #ff6361);
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding: 5% 5%;
+  padding: 65px 65px;
 }
 .logo-fixed{
   display: flex;
@@ -993,13 +991,10 @@ img{
   letter-spacing: 3px;
 }
 .last-section{
-  width: 80%;
-  height: 75vh;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 70px;
+  margin-right: 5%;
+  margin-left: 5%;
   padding: 50px;
-  padding-left: 50px;
+  padding-bottom: 0%;
   border-radius: 1px solid #2f3038;
   background-color: #0a1229;
 }
@@ -1053,11 +1048,6 @@ img{
   height: 1px;
   background-color: #ff6361;
 }
-.in-footer {
-  margin-bottom: 30px;
-  padding-right: 14px;
-  background-color: #0a1229;
-}
 .title-line1{
   margin-left: 30px;
   width: 70%;
@@ -1065,9 +1055,6 @@ img{
 .title-line2{
   margin-left: 40px;
   width: 120%;
-}
-.logo-end{
-  margin-top: 55px;
 }
 .logo-img-eng{
   padding: 45px;
@@ -1101,16 +1088,7 @@ img{
   .bar-icon-1{
   display: block;
   margin-top: 0px;
-  }
-  .mobil-screen {
-    margin-top: 95px;
-  }  
-  span{
-    position: relative;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-  }
+  } 
   .navbar{
     width: 100%;
     margin-top: 0%;
